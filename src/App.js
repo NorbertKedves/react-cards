@@ -5,6 +5,8 @@ import './App.css';
 
 
 function Card() {
+  //text ami irja az allapotot,  a setText ami megvaltoztatja az allapotot
+  const [text,setText]= React.useState("Orszag neve");
   return <div className="flash-card">Orszag neve</div>;
     
 }
