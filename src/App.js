@@ -7,7 +7,7 @@ import './App.css';
 function Card() {
   //text ami irja az allapotot,  a setText ami megvaltoztatja az allapotot
   const [text,setText]= React.useState("Orszag neve");
-  return <div className="flash-card">Orszag neve</div>;
+  return <div className="cards">Orszag neve</div>;
     
 }
 
@@ -17,9 +17,49 @@ export default function App(){
     <div className="App">
       <h1> MemoCards</h1>
       <h2> Kattints a kártyára az ország fővárosának megtekintéséhez</h2>
-      <Card />
-      <Card />
-      <Card />
+      <section className="cards">
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+
+        <article class="card">
+          <Card />    
+        </article>
+      </section>
+        
+      
     </div>
   );
 }

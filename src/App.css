@@ -1,25 +1,28 @@
 .App {
-  text-align: center
+  text-align: center;
+  width: auto;
 }
 
-/* .container {
-  flex-direction: row */
-
-.flash-card {
+.cards {
   display: flex;
-  margin:auto;
-
-
-
-  /* font-size: 24px;
-  line-height:  72px;
-  width: 216px;
-  border: 1px solid black;
-  
-  padding: 4rem; */
-  background: rgb(214, 182, 114);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; 
   cursor: pointer;
   user-select: none;
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background: rgb(214, 182, 114);
+  margin: 1rem .25em;
+
 }
 
 
