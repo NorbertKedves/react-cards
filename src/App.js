@@ -8,45 +8,22 @@ export default function App(){
       <h1> MemoCards</h1>
       <h2> Kattints a kártyára az ország fővárosának megtekintéséhez</h2>
       <section className="cards">
-        <article class="card">
+        <article className="card">
           <Card />    
         </article>
 
-        <article class="card">
+        <article className="card">
           <Card orszag = "Romania" fovaros = "Bukarest" />    
         </article>
 
-        <article class="card">
+        <article className="card">
           <Card orszag = "Magyaroszag" fovaros = "Budapest" />    
         </article>
 
-        <article class="card">
+        <article className="card">
           <Card  orszag = "Nemetorszag" fovaros = "Berlin" />    
         </article>
 
-        <article class="card">
-          <Card />    
-        </article>
-
-        <article class="card">
-          <Card />    
-        </article>
-
-        <article class="card">
-          <Card />    
-        </article>
-
-        <article class="card">
-          <Card />    
-        </article>
-
-        <article class="card">
-          <Card />    
-        </article>
-
-        <article class="card">
-          <Card />    
-        </article>
       </section>
         
       
