@@ -1,20 +1,28 @@
 .App {
-  text-align: center;
+  text-align: center
 }
 
+/* .container {
+  flex-direction: row */
+
 .flash-card {
-  font-size: 24px;
+  display: flex;
+  margin:auto;
+
+
+
+  /* font-size: 24px;
   line-height:  72px;
   width: 216px;
   border: 1px solid black;
-  margin:18px;
-  padding: 4rem;
+  
+  padding: 4rem; */
   background: rgb(214, 182, 114);
   cursor: pointer;
   user-select: none;
-
-
 }
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
