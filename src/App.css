@@ -20,11 +20,17 @@
   justify-content: center;
   width: 150px;
   height: 150px;
-  background: rgb(214, 182, 114);
   margin: 1rem .25em;
 
 }
 
+.card.front {
+  background: rgb(214, 182, 114);
+}
+
+.card.back {
+  background: rgb(151, 231, 143);
+}
 
 /* .App-logo {
   height: 40vmin;

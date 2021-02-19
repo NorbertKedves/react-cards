@@ -1,15 +1,5 @@
-
 import React from 'react';
-import './App.css';
-
-
-
-function Card() {
-  //text ami irja az allapotot,  a setText ami megvaltoztatja az allapotot
-  const [text,setText]= React.useState("Orszag neve");
-  return <div className="cards">Orszag neve</div>;
-    
-}
+import Card from "./cards";
 
 
 export default function App(){
@@ -23,15 +13,15 @@ export default function App(){
         </article>
 
         <article class="card">
-          <Card />    
+          <Card orszag = "Romania" fovaros = "Bukarest" />    
         </article>
 
         <article class="card">
-          <Card />    
+          <Card orszag = "Magyaroszag" fovaros = "Budapest" />    
         </article>
 
         <article class="card">
-          <Card />    
+          <Card  orszag = "Nemetorszag" fovaros = "Berlin" />    
         </article>
 
         <article class="card">
