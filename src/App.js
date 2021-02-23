@@ -16,6 +16,17 @@ const persons =[
 
 
 
+var orszagok = [
+  {orszag:"Magyarorszag",
+   fovaros:"dddd"},
+
+   {orszag:"MO",
+   fovaros:"dddd"},
+
+   {orszag:"MO",
+   fovaros:"dddd"},
+  
+];
 
 export default function App(){
 
